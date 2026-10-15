@@ -4,7 +4,7 @@ A small companion for your Mac. Keep ideas, organize collections and take time t
 
 ## Download
 
-[Download Arrumi beta](https://github.com/danikovalyov/arrumi-downloads/releases)
+[Download Arrumi beta](https://github.com/danikovalyov/arrumi/releases)
 
 **Requirements:** Apple Silicon (M1 or newer), macOS 13 or newer.
 
