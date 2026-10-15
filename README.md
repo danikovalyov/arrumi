@@ -4,7 +4,7 @@ A small companion for your Mac. Keep ideas, organize collections and take time t
 
 ## Download
 
-[Download Arrumi beta](https://github.com/danikovalyov/arrumi/releases)
+[Download Arrumi 0.6.0 beta 2](https://github.com/danikovalyov/arrumi/releases/tag/v0.6.0-beta.2)
 
 Open a release and choose `Arrumi-…-macOS-arm64.zip` under **Assets**. GitHub’s automatic **Source code** archives contain this repository’s documentation, not the app. `SHA256SUMS.txt` is provided to verify the app download.
 
