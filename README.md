@@ -2,59 +2,45 @@
 
 A small desktop companion for your Mac: a dog or cat that lives at the edge of your screen while you take notes, keep things organized and focus.
 
-<!-- Screenshot: add docs/screenshot.png (under ~1 MB) showing the pet at the screen edge with the panel open, then replace this comment with:
-![Arrumi on the edge of a Mac screen, with the notes panel open](docs/screenshot.png)
--->
-
 ## Download
 
-[Download Arrumi 0.6.0 beta 2](https://github.com/danikovalyov/arrumi/releases/tag/v0.6.0-beta.2)
+**[Download Arrumi 1.0.0 for Apple Silicon](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg)** · [Release notes](https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0)
 
-Open a release and choose `Arrumi-…-macOS-arm64.zip` under **Assets**. GitHub's automatic **Source code** archives contain this repository's documentation, not the app. `SHA256SUMS.txt` is provided to verify the app download.
+**Requirements:** Apple Silicon (M1 or newer), macOS 13 or newer. Intel Macs are not supported by this download.
 
-**Requirements:** Apple Silicon (M1 or newer), macOS 13 or newer.
+The installer is about 12.5 MB. Its [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg.sha256) is available alongside it. GitHub's automatic **Source code** archives contain this repository's documentation, not the app. The application source is maintained in a separate private repository.
 
-This is an early testing build. It is not Developer ID signed or notarized, so macOS will warn you the first time you open it. The steps below explain how to get past that. The source code is maintained in a separate private repository.
+Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block its first launch; follow the instructions below only if you trust this download.
 
 ## What it includes
 
-- Eighteen dog and cat breeds.
-- Notes, clickable links, checklists and collections.
-- Focus sessions and a countdown beside your pet.
-- Adjustable size, opacity, screen edge and interface color.
-- Spanish and English. Notes and settings are stored locally.
+- Eighteen dog and cat breeds with hover reactions and focus poses.
+- Notes with clickable links and expandable text, plus editable checklists with optional titles.
+- Collections for notes and links, with an Include collections switch for the main notes list.
+- Focus sessions with presets, 1 to 999 minute custom durations, pause and a countdown beside your pet.
+- Adjustable pet size, opacity and screen edge, plus custom interface colors.
+- First-launch onboarding, Spanish and English. Notes, settings and drafts are stored locally.
 
 ## Install
 
-Unzip the download and move `Arrumi.app` to Applications. Do not replace an existing version without keeping a copy.
+1. Download and open `Arrumi-1.0.0-macOS-arm64.dmg`.
+2. Drag **Arrumi.app** onto **Applications** in the installer window.
+3. Eject the Arrumi disk, then open Arrumi from Applications.
+
+Quit an older Arrumi before replacing it. Keep a copy if you want to roll back. Updating retains your existing notes, drafts and settings. The installer contains no personal notes or collections.
 
 ## First time opening Arrumi
 
-Because this build isn't notarized by Apple, macOS blocks it the first time. You only need to do this once.
+Because this package is not notarized, macOS may block it from opening.
 
-**macOS 15 Sequoia and later**
+1. Try opening **Arrumi.app** from Applications.
+2. If macOS cannot verify the developer, dismiss the warning without moving the app to Trash.
+3. Open **System Settings > Privacy & Security** and look for the message about Arrumi.
+4. Choose **Open Anyway**, if available, and confirm only if you trust the download.
 
-1. Open `Arrumi.app` from Applications. macOS will say it can't verify the app.
-2. Dismiss the warning (click **Done** or **OK**, not **Move to Trash**).
-3. Go to **System Settings > Privacy & Security**.
-4. Scroll down to the **Security** section. You'll see a message about Arrumi being blocked.
-5. Click **Open Anyway**, then confirm with **Open Anyway** again and enter your password if asked.
+Managed Macs may prevent this authorization. See [Apple's guidance on opening apps safely](https://support.apple.com/102445).
 
-**macOS 13 Ventura and macOS 14 Sonoma**
-
-1. In Finder, right-click (or Control-click) `Arrumi.app` in Applications.
-2. Choose **Open**.
-3. Click **Open** in the dialog that appears.
-
-**Optional: using Terminal**
-
-If you're comfortable with Terminal, you can remove the quarantine flag instead:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/Arrumi.app
-```
-
-After that, Arrumi opens normally. Look for it at the edge of your screen and in the menu bar.
+After opening, look for Arrumi at the edge of your screen and in the menu bar. The introduction appears on a fresh profile. Existing users keep their notes and preferences.
 
 ## Support
 
