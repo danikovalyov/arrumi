@@ -8,9 +8,11 @@
   A small desktop companion for Mac. A dog or cat lives at the edge of your screen while you take notes and stay focused.
 </p>
 
+<h3 align="center">
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg">Download Arrumi 1.0.0 for Apple Silicon</a>
+</h3>
+
 <p align="center">
-  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg"><b>Download Arrumi 1.0.0 for Apple Silicon</b></a>
-  <br>
   <sub>Free · macOS 13 or newer · About 12.5 MB · <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0">Release notes</a></sub>
 </p>
 
