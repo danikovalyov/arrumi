@@ -1,49 +1,88 @@
-# Arrumi
+<p align="center">
+  <img src="assets/cat-siamese.png" width="110" alt="Arrumi's Siamese cat in pixel art">
+</p>
 
-A small desktop companion for your Mac: a dog or cat that lives at the edge of your screen while you take notes, keep things organized and focus.
+<h1 align="center">Arrumi</h1>
 
-## Download
+<p align="center">
+  A small desktop companion for Mac. A dog or cat lives at the edge of your screen while you take notes and stay focused.
+</p>
 
-**[Download Arrumi 1.0.0 for Apple Silicon](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg)** · [Release notes](https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0)
+<p align="center">
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg"><b>Download Arrumi 1.0.0 for Apple Silicon</b></a>
+  <br>
+  <sub>Free · macOS 13 or newer · About 12.5 MB · <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0">Release notes</a></sub>
+</p>
 
-**Requirements:** Apple Silicon (M1 or newer), macOS 13 or newer. Intel Macs are not supported by this download.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/notes.jpg" width="100%" alt="Arrumi notes panel with a checklist, next to a Shiba Inu peeking from the screen edge">
+      <p><b>Notes</b><br>Write it down before it's gone. Quick notes and checklists, one click away from your pet.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/collections.jpg" width="100%" alt="Arrumi collections panel">
+      <p><b>Collections</b><br>Group links and notes by topic, like a folder of design inspiration you keep coming back to.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/focus.jpg" width="100%" alt="Arrumi focus session with a countdown under the pet">
+      <p><b>Focus</b><br>Start a session and the countdown sits right under your pet. One thing at a time.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/pet.jpg" width="100%" alt="Arrumi pet settings with a grid of dog breeds">
+      <p><b>Your companion</b><br>Give it a name, pick a dog or a cat and choose from 18 breeds.</p>
+    </td>
+  </tr>
+</table>
 
-The installer is about 12.5 MB. Its [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg.sha256) is available alongside it. GitHub's automatic **Source code** archives contain this repository's documentation, not the app. The application source is maintained in a separate private repository.
+## What it does
 
-Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block its first launch; follow the instructions below only if you trust this download.
+- **Notes, links and checklists.** Links in notes are clickable, longer text expands, and checklists can have an optional title.
+- **Collections** for notes and links, with an Include collections switch for the main notes list.
+- **Focus sessions** with presets, custom durations from 1 to 999 minutes, pause, and a countdown right next to your pet.
+- **18 dog and cat breeds**, with hover reactions and focus poses.
+- **Make it yours.** Choose the pet's size, opacity and screen edge, plus the interface color.
+- **English and Spanish**, with a short introduction on first launch.
+- **Everything stays on your Mac.** Notes, settings and drafts are stored locally.
 
-## What it includes
+## Requirements
 
-- Eighteen dog and cat breeds with hover reactions and focus poses.
-- Notes with clickable links and expandable text, plus editable checklists with optional titles.
-- Collections for notes and links, with an Include collections switch for the main notes list.
-- Focus sessions with presets, 1 to 999 minute custom durations, pause and a countdown beside your pet.
-- Adjustable pet size, opacity and screen edge, plus custom interface colors.
-- First-launch onboarding, Spanish and English. Notes, settings and drafts are stored locally.
+- A Mac with Apple Silicon (M1 or newer). Intel Macs are not supported by this download.
+- macOS 13 or newer.
 
 ## Install
 
-1. Download and open `Arrumi-1.0.0-macOS-arm64.dmg`.
+1. Download [`Arrumi-1.0.0-macOS-arm64.dmg`](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg) and open it.
 2. Drag **Arrumi.app** onto **Applications** in the installer window.
 3. Eject the Arrumi disk, then open Arrumi from Applications.
 
-Quit an older Arrumi before replacing it. Keep a copy if you want to roll back. Updating retains your existing notes, drafts and settings. The installer contains no personal notes or collections.
+After opening, look for Arrumi at the edge of your screen and in the menu bar. The introduction appears on a fresh profile.
 
-## First time opening Arrumi
+**Updating:** quit the older Arrumi before replacing it, and keep a copy if you want to roll back. Your existing notes, drafts and settings are kept. The installer contains no personal notes or collections.
 
-Because this package is not notarized, macOS may block it from opening.
+A [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg.sha256) for the installer is available next to it. GitHub's automatic **Source code** archives only contain this repository's documentation, not the app.
+
+## Opening Arrumi for the first time
+
+I don't have an Apple Developer account, so Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block it the first time you open it. Follow these steps only if you trust this download.
 
 1. Try opening **Arrumi.app** from Applications.
-2. If macOS cannot verify the developer, dismiss the warning without moving the app to Trash.
+2. If macOS says it can't verify the developer, dismiss the warning without moving the app to Trash.
 3. Open **System Settings > Privacy & Security** and look for the message about Arrumi.
-4. Choose **Open Anyway**, if available, and confirm only if you trust the download.
+4. Choose **Open Anyway**, if it's there, and confirm.
 
-Managed Macs may prevent this authorization. See [Apple's guidance on opening apps safely](https://support.apple.com/102445).
-
-After opening, look for Arrumi at the edge of your screen and in the menu bar. The introduction appears on a fresh profile. Existing users keep their notes and preferences.
+Managed Macs may not allow this. See [Apple's guidance on opening apps safely](https://support.apple.com/102445).
 
 ## Support
 
-[Report an issue](https://github.com/danikovalyov/arrumi/issues) with your macOS version, Mac processor, what happened and steps to reproduce it. Avoid attaching private notes or personal links.
+Found a problem? [Open an issue](https://github.com/danikovalyov/arrumi/issues) with your macOS version, your Mac's processor, what happened and the steps to reproduce it. Please don't attach private notes or personal links.
 
-Made by [Daniel Kovalyov](https://danikovalyov.com) · [GitHub](https://github.com/danikovalyov)
+---
+
+<p align="center">
+  <a href="https://danikovalyov.com/work/arrumi/">Project page</a> · <a href="https://github.com/danikovalyov">GitHub</a>
+  <br>
+  Made by <a href="https://danikovalyov.com">Daniel Kovalyov</a>
+</p>
