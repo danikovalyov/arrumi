@@ -8,13 +8,26 @@
   A small desktop companion for Mac. A dog or cat lives at the edge of your screen while you take notes and stay focused.
 </p>
 
-<h3 align="center">
-  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg">Download Arrumi 1.0.0 for Apple Silicon</a>
-</h3>
+<p align="center">
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg">
+    <img src="assets/download-macos.svg" width="264" height="48" alt="Download Arrumi 1.0.0 for macOS, Apple Silicon">
+  </a>
+</p>
 
 <p align="center">
-  <sub>Free · macOS 13 or newer · About 12.5 MB · <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0">Release notes</a></sub>
+  <sub>Version 1.0.0 · Free · macOS 13+ · Apple Silicon · 12.5 MB</sub>
 </p>
+
+<p align="center">
+  <a href="#a-little-company-for-your-everyday">Explore</a> ·
+  <a href="#install">Installation</a> ·
+  <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0">Release notes</a> ·
+  <a href="#support">Support</a>
+</p>
+
+<br>
+
+## A little company for your everyday
 
 <table>
   <tr>
@@ -39,22 +52,16 @@
   </tr>
 </table>
 
-## What it does
+## Small details, made for you
 
-- **Notes, links and checklists.** Links in notes are clickable, longer text expands, and checklists can have an optional title.
-- **Collections** for notes and links, with an Include collections switch for the main notes list.
-- **Focus sessions** with presets, custom durations from 1 to 999 minutes, pause, and a countdown right next to your pet.
-- **18 dog and cat breeds**, with hover reactions and focus poses.
-- **Make it yours.** Choose the pet's size, opacity and screen edge, plus the interface color.
-- **English and Spanish**, with a short introduction on first launch.
-- **Everything stays on your Mac.** Notes, settings and drafts are stored locally.
-
-## Requirements
-
-- A Mac with Apple Silicon (M1 or newer). Intel Macs are not supported by this download.
-- macOS 13 or newer.
+- **A companion that fits.** 18 breeds, gentle hover reactions and your choice of size, opacity and screen edge.
+- **Your own rhythm.** Focus presets, custom sessions from 1 to 999 minutes and a countdown beside your pet.
+- **Your space, your style.** A translucent panel, custom colors, and English or Spanish.
+- **Local by design.** Notes, settings and drafts stay on your Mac. No account required.
 
 ## Install
+
+**Apple Silicon (M1 or newer) · macOS 13 or newer.** This download does not support Intel Macs.
 
 1. Download [`Arrumi-1.0.0-macOS-arm64.dmg`](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg) and open it.
 2. Drag **Arrumi.app** onto **Applications** in the installer window.
@@ -66,9 +73,13 @@ After opening, look for Arrumi at the edge of your screen and in the menu bar. T
 
 A [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg.sha256) for the installer is available next to it. GitHub's automatic **Source code** archives only contain this repository's documentation, not the app.
 
-## Opening Arrumi for the first time
+Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block it the first time you open it. Follow these steps only if you trust this download.
 
-I don't have an Apple Developer account, so Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block it the first time you open it. Follow these steps only if you trust this download.
+
+<a id="first-time-opening-arrumi"></a>
+<a id="opening-arrumi-for-the-first-time"></a>
+<details>
+<summary><strong>macOS blocked Arrumi? First-time opening instructions</strong></summary>
 
 1. Try opening **Arrumi.app** from Applications.
 2. If macOS says it can't verify the developer, dismiss the warning without moving the app to Trash.
@@ -76,6 +87,8 @@ I don't have an Apple Developer account, so Arrumi is **not Developer ID signed 
 4. Choose **Open Anyway**, if it's there, and confirm.
 
 Managed Macs may not allow this. See [Apple's guidance on opening apps safely](https://support.apple.com/102445).
+
+</details>
 
 ## Support
 
