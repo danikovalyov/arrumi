@@ -9,19 +9,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg">
-    <img src="assets/download-macos.svg" width="264" height="48" alt="Download Arrumi 1.0.0 for macOS, Apple Silicon">
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.1/Arrumi-1.0.1-macOS-arm64.dmg">
+    <img src="assets/download-macos.svg" width="264" height="48" alt="Download Arrumi 1.0.1 for macOS, Apple Silicon">
   </a>
 </p>
 
 <p align="center">
-  <sub>Version 1.0.0 · Free · macOS 13+ · Apple Silicon · 12.5 MB</sub>
+  <sub>Version 1.0.1 · Free · macOS 13+ · Apple Silicon · 12.5 MB</sub>
 </p>
 
 <p align="center">
   <a href="#a-little-company-for-your-everyday">Explore</a> ·
   <a href="#install">Installation</a> ·
-  <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.0">Release notes</a> ·
+  <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.1">Release notes</a> ·
   <a href="#support">Support</a>
 </p>
 
@@ -63,7 +63,7 @@
 
 **Apple Silicon (M1 or newer) · macOS 13 or newer.** This download does not support Intel Macs.
 
-1. Download [`Arrumi-1.0.0-macOS-arm64.dmg`](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg) and open it.
+1. Download [`Arrumi-1.0.1-macOS-arm64.dmg`](https://github.com/danikovalyov/arrumi/releases/download/v1.0.1/Arrumi-1.0.1-macOS-arm64.dmg) and open it.
 2. Drag **Arrumi.app** onto **Applications** in the installer window.
 3. Eject the Arrumi disk, then open Arrumi from Applications.
 
@@ -71,7 +71,7 @@ After opening, look for Arrumi at the edge of your screen and in the menu bar. T
 
 **Updating:** quit the older Arrumi before replacing it, and keep a copy if you want to roll back. Your existing notes, drafts and settings are kept. The installer contains no personal notes or collections.
 
-A [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.0/Arrumi-1.0.0-macOS-arm64.dmg.sha256) for the installer is available next to it. GitHub's automatic **Source code** archives only contain this repository's documentation, not the app.
+A [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.0.1/Arrumi-1.0.1-macOS-arm64.dmg.sha256) for the installer is available next to it. GitHub's automatic **Source code** archives only contain this repository's documentation, not the app.
 
 Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block it the first time you open it. Follow these steps only if you trust this download.
 
