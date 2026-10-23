@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cat-siamese.png" width="110" alt="Arrumi's Siamese cat in pixel art">
+  <img src="assets/arrumi-icon.png" width="110" height="110" alt="Arrumi app icon: white dog on a black background">
 </p>
 
 <h1 align="center">Arrumi</h1>
@@ -105,6 +105,12 @@ Arrumi is **not Developer ID signed or notarized by Apple**. macOS may block it 
 Managed Macs may not allow this. See [Apple's guidance on opening apps safely](https://support.apple.com/102445).
 
 </details>
+
+## About this repository
+
+This public repository hosts Arrumi's downloads, screenshots and documentation. The application source is maintained privately and is not included here. Arrumi is free to download; it is not an open-source project.
+
+GitHub's automatic **Source code** archives contain this repository's documentation and website assets, not the application source.
 
 ## Support
 
