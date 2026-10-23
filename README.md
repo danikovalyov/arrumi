@@ -5,7 +5,7 @@
 <h1 align="center">Arrumi</h1>
 
 <p align="center">
-  A small desktop companion for Mac. A dog or cat lives at the edge of your screen while you take notes and stay focused.
+  A small desktop companion for Mac and Windows. A dog or cat lives at the edge of your screen while you take notes and stay focused.
 </p>
 
 <p align="center">
@@ -19,8 +19,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip">Download Arrumi 1.1.0 for Windows</a>
+  <br>
+  <sub>Windows 11 x64 · Portable · .NET and Windows App SDK included</sub>
+</p>
+
+<p align="center">
   <a href="#a-little-company-for-your-everyday">Explore</a> ·
-  <a href="#install">Installation</a> ·
+  <a href="#install-on-macos">Installation</a> ·
   <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.1">Release notes</a> ·
   <a href="#support">Support</a>
 </p>
@@ -57,9 +63,17 @@
 - **A companion that fits.** 18 breeds, gentle hover reactions and your choice of size, opacity and screen edge.
 - **Your own rhythm.** Focus presets, custom sessions from 1 to 999 minutes and a countdown beside your pet.
 - **Your space, your style.** A translucent panel, custom colors, and English or Spanish.
-- **Local by design.** Notes, settings and drafts stay on your Mac. No account required.
+- **Local by design.** Notes, settings and drafts stay on your computer. No account required.
 
-## Install
+## Windows
+
+**Windows 11 x64.** Download the [Windows portable ZIP](https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip), extract the entire archive to a permanent folder and open **Arrumi.exe**. The runtimes are included.
+
+Quit an older version before updating and use a new app folder. Your notes, drafts and settings stay in `%LOCALAPPDATA%\Arrumi\Windows`.
+
+The [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip.sha256) verifies the download. The executable is not Authenticode signed, so Windows may show SmartScreen. See the [Windows release notes](https://github.com/danikovalyov/arrumi/releases/tag/v1.1.0-windows).
+
+## Install on macOS
 
 **Apple Silicon (M1 or newer) · macOS 13 or newer.** This download does not support Intel Macs.
 
@@ -92,7 +106,7 @@ Managed Macs may not allow this. See [Apple's guidance on opening apps safely](h
 
 ## Support
 
-Found a problem? [Open an issue](https://github.com/danikovalyov/arrumi/issues) with your macOS version, your Mac's processor, what happened and the steps to reproduce it. Please don't attach private notes or personal links.
+Found a problem? [Open an issue](https://github.com/danikovalyov/arrumi/issues) with your operating system version, your processor, what happened and the steps to reproduce it. Please don't attach private notes or personal links.
 
 ---
 
