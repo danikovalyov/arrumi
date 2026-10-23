@@ -10,24 +10,26 @@
 
 <p align="center">
   <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.0.1/Arrumi-1.0.1-macOS-arm64.dmg">
-    <img src="assets/download-macos.svg" width="264" height="48" alt="Download Arrumi 1.0.1 for macOS, Apple Silicon">
+    <img src="assets/download-macos.svg" width="264" height="48" alt="Download Arrumi for macOS, Apple Silicon">
+  </a>
+  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.1.1-windows/Arrumi-1.1.1-Windows-x64-Setup.exe">
+    <img src="assets/download-windows.svg" width="264" height="48" alt="Download Arrumi for Windows 11 x64">
   </a>
 </p>
 
 <p align="center">
-  <sub>Version 1.0.1 · Free · macOS 13+ · Apple Silicon · 12.5 MB</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip">Download Arrumi 1.1.0 for Windows</a>
+  <sub>Mac: 1.0.1 · macOS 13+ · Apple Silicon · 12.5 MB</sub>
   <br>
-  <sub>Windows 11 x64 · Portable · .NET and Windows App SDK included</sub>
+  <sub>Windows: 1.1.1 · Windows 11 x64 · Installer · 63 MB</sub>
+  <br>
+  <sub>Free · No account required</sub>
 </p>
 
 <p align="center">
   <a href="#a-little-company-for-your-everyday">Explore</a> ·
-  <a href="#install-on-macos">Installation</a> ·
-  <a href="https://github.com/danikovalyov/arrumi/releases/tag/v1.0.1">Release notes</a> ·
+  <a href="#install-on-macos">Install on Mac</a> ·
+  <a href="#install-on-windows">Install on Windows</a> ·
+  <a href="https://github.com/danikovalyov/arrumi/releases">Releases</a> ·
   <a href="#support">Support</a>
 </p>
 
@@ -65,13 +67,13 @@
 - **Your space, your style.** A translucent panel, custom colors, and English or Spanish.
 - **Local by design.** Notes, settings and drafts stay on your computer. No account required.
 
-## Windows
+## Install on Windows
 
-**Windows 11 x64.** Download the [Windows portable ZIP](https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip), extract the entire archive to a permanent folder and open **Arrumi.exe**. The runtimes are included.
+**Windows 11 x64.** Download the [Windows installer](https://github.com/danikovalyov/arrumi/releases/download/v1.1.1-windows/Arrumi-1.1.1-Windows-x64-Setup.exe) and run it. It installs for your current user without administrator rights and adds Arrumi to the Start menu. .NET and Windows App SDK are included.
 
-Quit an older version before updating and use a new app folder. Your notes, drafts and settings stay in `%LOCALAPPDATA%\Arrumi\Windows`.
+**Updating:** quit the older Arrumi before running the installer. Your notes, drafts, collections and settings stay in `%LOCALAPPDATA%\Arrumi\Windows`. Uninstalling keeps your data by default; removing local data requires an explicit choice. Mac and Windows keep their data separately.
 
-The [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.1.0-windows/Arrumi-1.1.0-Windows-x64-portable.zip.sha256) verifies the download. The executable is not Authenticode signed, so Windows may show SmartScreen. See the [Windows release notes](https://github.com/danikovalyov/arrumi/releases/tag/v1.1.0-windows).
+The [SHA-256 checksum](https://github.com/danikovalyov/arrumi/releases/download/v1.1.1-windows/Arrumi-1.1.1-Windows-x64-Setup.exe.sha256) verifies the download. The executable is not Authenticode signed, so Windows may show SmartScreen. See the [Windows release notes](https://github.com/danikovalyov/arrumi/releases/tag/v1.1.1-windows).
 
 ## Install on macOS
 
